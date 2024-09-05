@@ -190,7 +190,8 @@ playerCards.innerHTML += arr.map(({name, position, number, isCaptain, nickname})
   <p>Nickname: ${nickname !== null ? nickname : "N/A"}</p>
   </div>`
 
-})
+}).join('');
+
 
 
 
