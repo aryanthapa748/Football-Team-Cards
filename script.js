@@ -193,7 +193,7 @@ playerCards.innerHTML += arr.map(({name, position, number, isCaptain, nickname})
 }).join('');
 
 playersDropdownList.addEventListener("change", (e) => {
-  console.log(e.target.value);
+  playerCards.innerHTML = '';
 
 });
 
