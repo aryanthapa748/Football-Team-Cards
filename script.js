@@ -194,6 +194,9 @@ playerCards.innerHTML += arr.map(({name, position, number, isCaptain, nickname})
 
 playersDropdownList.addEventListener("change", (e) => {
   playerCards.innerHTML = '';
+  switch (e.target.value) {
+    case "nickname":
+  }
 
 });
 
